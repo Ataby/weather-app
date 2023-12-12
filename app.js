@@ -79,6 +79,7 @@ try {
     createLi.addEventListener("click",((item)=>{
         alert(`${item.target.tagName} is clicked.`);
         window.location.href="https://github.com/Ataby?tab=repositories/";
+        // item.stopPropagation(); // BUBBLING'IN UST ELEMENTI TETIKLEMESINI DURDURUR.
     }))
 } 
 catch (error) {
