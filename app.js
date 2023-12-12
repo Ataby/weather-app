@@ -90,3 +90,9 @@ catch (error) {
 form.reset();
     
 }
+
+// document.querySelector(".cities").addEventListener("click",((item)=>{
+//     if(item.target.className=="remove-btn"){
+//         querySelector(".cities").remove();
+//     }
+// }))
